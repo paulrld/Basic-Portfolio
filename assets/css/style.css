@@ -1,3 +1,67 @@
-h1 {
-	color: red;
+/* 
+header {
+   display: flex;
+   justify-content: space-between;
+   max-width: 980px;
+   margin: auto;
+   padding: 10px;
+   background: #333;
+   border-radius: 3px 3px 0 0;
+   @include forSmallScreens(700) {
+      display: block;
+      text-align: center;
+   }
+} */
+
+/*centers everything and changes color and line height */
+body { 
+	/*
+	Be sure to zero out the body margins and padding so the page is flush to the top of the page: 
+	*/
+	margin: 0:;
+	padding: 0;
+
+	color: #333;
+	background: #777;
+	
+	text-align: center;
+	font-family: "Georgia",Times New Roman,Times,serif;
+
+	line-height: 150%
+	font-size: 18px;
+
+	
+	width: 960px;
+}
+header {
+	background: #ebebeb;
+	border: 5px solid #777;
+	width: 100%;
+}
+.main-nav {
+	float: left;
+	width: 100%;
+
+	border: 5px solid #777;
+	background: #ebebeb;
+}
+
+#main-bio  {
+	float: left;
+	width: 495px;
+
+	border: 1px solid #000;
+
+}
+.side-content  {
+	float: left;
+	width: 20%;
+
+	border: 1px solid #000;
+}
+.main-footer  {
+	float: left;
+	width: 495px;
+
+	border: 1px solid #000;
 }
