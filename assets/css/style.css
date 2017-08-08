@@ -18,16 +18,15 @@ body {
 	/*
 	Be sure to zero out the body margins and padding so the page is flush to the top of the page: 
 	*/
-	margin: 0:;
-	padding: 0;
+	margin: 0;
 
-	color: #333;
+	color: #777;
 	background: #777;
 	
 	text-align: center;
-	font-family: "Georgia",Times New Roman,Times,serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-	line-height: 150%
+/* 	 line-height: 150*/	
 	font-size: 18px;
 
 	
@@ -35,25 +34,45 @@ body {
 }
 header {
 	background: #ebebeb;
-	border: 5px solid #777;
+	/* border: 5px solid #777; */
 	width: 100%;
+/* 	margin-bottom: 20px;
+margin-top: 20px; */
+	padding-top: 9px;
+	padding-bottom: 9px;
+
 }
-.main-nav {
+/* Space on top of element outside of border*/
+.header-container, .main-nav,#main-bio {
+	margin-top: 3px;
+}
+/* .main-nav {
 	float: left;
 	width: 100%;
 
-	border: 5px solid #777;
+border: 5px solid #777;
 	background: #ebebeb;
-}
+	padding-top: 9px;
+	padding-bottom: 9px;
 
-#main-bio  {
+} */
+
+/* #main-bio  {
 	float: left;
 	width: 495px;
 
 	border: 1px solid #000;
+	background: #ebebeb;
 
-}
-.side-content  {
+} */
+/* #article-one {
+	float: center;
+	background: red;
+	width: 480px;
+	margin: 0;
+
+} */
+/* .side-content  {
 	float: left;
 	width: 20%;
 
@@ -64,4 +83,4 @@ header {
 	width: 495px;
 
 	border: 1px solid #000;
-}
+} */
