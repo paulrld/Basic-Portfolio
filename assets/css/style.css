@@ -95,7 +95,7 @@ p {
 	margin-bottom:2%;
 	border: 1px solid #dddddd;
 	padding:0 20px;
-
+	/* overflow:hidden; */
 }
 .side-content {
 	border: 1px solid #dddddd;
@@ -151,8 +151,32 @@ form,textarea {
 	float:left;
 	text-align: left;
 	width:100%;
+	margin-bottom:15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:gray;
+	font-size: 17px;
+	line-height: 25px;
+}
+textarea {
+	border: 1px solid #dddddd;
+
 }
 input{
 	width:100%;
 	text-align:left;
+	color:gray;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-bottom:10px;
+	border: 1px solid #dddddd;
+
 } 
+#button {
+	width:100px;
+	margin-bottom:5px;
+	color:white;
+	background-color:#4aaaa5; 
+	border:none;
+	padding:10px 20px;
+	text-align:center;
+	font-size:18px;
+}
