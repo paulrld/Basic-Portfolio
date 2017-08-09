@@ -48,6 +48,10 @@ body {
 	justify-content: flex-end;
 
 }
+.connect-with-me:hover {
+	box-shadow: 0 0 20px 1px rgba(0, 140, 255, 0.5);
+}
+
 a{
 	color:#777777;
 	text-decoration: none;
